@@ -174,23 +174,26 @@ border-bottom: 1px solid #0f0f0f;
 }
 .container3{
     display:flex;
-    align-items:center;
+    /* align-items:center; */
+    justify-content: center;
+    gap: 30px;
     margin:0;
+    padding: 0 120px ;
 }
 /* Khung trái */
-.khungtrai_container3{
+/* .khungtrai_container3{
    
-    margin-left:150px;
+    margin-left:10%;
     margin-bottom:95px;
-}
+} */
 /* Khung phải */
-.khungphai_container3{
+/* .khungphai_container3{
     height:100%;
     width: 380px;
     margin-left:60px;
     margin-top:0;
     margin-bottom:0;
-}
+} */
 #item1__khungphai_container3{
     margin-top:0;
     margin-bottom:20px;
@@ -276,21 +279,22 @@ border-bottom: 1px solid #0f0f0f;
 /* Phần 7 */
 .container7{
     display:flex;
-    align-items:center;
+    
     justify-content:center;
-    padding-left:150px;
-    padding-right:120px;
+    padding:0 120px;
     margin-top:20px;
 }
 .khungtrai_container7{
     flex:1;
-    padding-top:65px;
+    height:100% !important;
+    /* padding-top:65px;
     padding-bottom:75px;
-    padding-left: 10px;
+    padding-left: 10px; */
     background-color:rgb(236, 231, 231);
 }
 .khungphai_container7{
     flex:1;
+    height:100%;
     background-color:beige;
 }
 .image__khungphai_container7{
